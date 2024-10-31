@@ -63,3 +63,5 @@ After installing the extension, follow this steps to check the output data of yo
   6. You will be able to see the identified CPFs in `Output`
 
   ![Output](images/cpf-output.png)
+
+  > The Extension also creates an Issue on Burp Scanner, but since it only works on Burp Pro, I won't be able to demonstrate it here.
