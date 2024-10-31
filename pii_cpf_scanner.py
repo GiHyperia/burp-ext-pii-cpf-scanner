@@ -75,7 +75,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
                 severity = "High"
                 confidence = "Certain"
                 # Besides having different possibilities of masking the CPF data, I prefer this one since it's commonly used and easier to be validated, if needed
-                remediation = ("You must mask the CPF so the information will not be leaked. Masking recommendation would be showing the first three numbers and the final two (e.g. 123.***.***-10)")
+                remediation = "You must mask the CPF so the information will not be leaked. Masking recommendation would be showing the first three numbers and the final two (e.g. 123.***.***-10)"
 
                 issue = CustomScanIssue(
                     http_service,
